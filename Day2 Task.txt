@@ -1,5 +1,11 @@
 1-Make a project deployment.
 
+https://learning-vcs-murex.vercel.app/
+
+https://ahmedameen1.github.io/LearningVCS/
+
+
+
 
 2-what is pull request and request & differrent bettween them?
 Pull Request : A request to merge code from one branch/repo into another. 
@@ -8,6 +14,8 @@ Request : a protocol like HTTP, HTTPS
 
 
 3-Make fork from your project and use it from anthor account 
+https://github.com/AhmedAmeen1/task2
+
 
 
 
