@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #4891ff;
+  --light-color: #f4f4f6;
+  --dark-color: #111;
+  --white: #fff;
+  --black: #000;
+  --gray: #808080;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  padding: 10px 15px;
+  display: block;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
+/* Utility classes */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+  color: var(--white);
+}
+
+/* Hero */
+
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero .container {
+  background: url("../images/hero-bg.png") no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 550px;
+}
+
+.hero .hero-content {
+    width: 70%;
+}
+.hero .hero-text {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* Text Classes */
+
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0 5px;
+}
+
+.text-center {
+  text-align: center;
+}
